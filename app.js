@@ -31,6 +31,7 @@ function showProducts(products) {
 
     if (products.length > 0) {
         const listProducts = document.createElement('ul');
+        listProducts.style.listStyle = "none";
         products.forEach(function (product) {
             const listItem = document.createElement('li');
             listItem.innerHTML = `${product.nombre} <span>Precio: ${product.precio}</span>`;
@@ -40,6 +41,7 @@ function showProducts(products) {
         searchResults.appendChild(listProducts);
     } else {
         searchResults.innerHTML = 'Este producto no ha sido encontrado';
+        searchResults.style.margin = "0.8rem"
     }
 }
 
