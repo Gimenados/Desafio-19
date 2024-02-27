@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Luckiest+Guy&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+h2 {
+    top: 1rem;
+    text-align: center;
+    font-family: "Luckiest Guy", cursive;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 2.5rem;
+}
+
+.boxContainer {
+    display: flex;
+    border-top: 1px solid black;
+    flex-direction: column;
+}
+
+.box1 {
+   top: 50%;
+   left: 50%;
+   display: flex;
+   flex-direction: row;
+}
+
+.box1 img {
+    width: 50%;
+    height: 100%;
+}
+
+.box {
+    position: absolute;
+    top: 50%;
+    border: 3px solid #a50559;
+    left: 50%;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+}
+
+input.src {
+    padding: 18px 20px 18px 64px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+    color: #302f2f;
+    border: none;
+    width: 100px;
+    transition: all .5s;
+}
+
+button {
+    background: #fff url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) 
+       no-repeat 18px center;
+    height: 40px;
+    width: 50px;
+    border:none;
+    padding: 1rem;
+    border-radius: 25%;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input.src:hover {
+    width: 250px;
+    background-color: #fff;
+    border-color: #46108c;
+    box-shadow: 0 0 5px #fff;
+}
+
