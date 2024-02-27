@@ -68,10 +68,3 @@ button:hover {
     cursor: pointer;
 }
 
-input.src:hover {
-    width: 250px;
-    background-color: #fff;
-    border-color: #46108c;
-    box-shadow: 0 0 5px #fff;
-}
-
