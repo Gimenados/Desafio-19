@@ -4,16 +4,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #fff;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
-}
-
-h2 {
-    top: 1rem;
-    text-align: center;
-    font-family: "Luckiest Guy", cursive;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-    font-size: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
 }
 
 .boxContainer {
@@ -38,6 +30,7 @@ h2 {
     position: absolute;
     top: 50%;
     border: 3px solid #a50559;
+    border-radius: 10%;
     left: 50%;
     background-color: #fff;
     transform: translate(-50%, -50%);
@@ -50,7 +43,7 @@ input.src {
     border-radius: 15px;
     color: #302f2f;
     border: none;
-    width: 100px;
+    width: 50%;
     transition: all .5s;
 }
 
@@ -68,3 +61,8 @@ button:hover {
     cursor: pointer;
 }
 
+#searchResults {
+    color: red;
+    display: flex;
+    background-color: #fff;
+}
